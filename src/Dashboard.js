@@ -10,7 +10,7 @@ const Dashboard = () => {
   const [news, setNews] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
-  const [searchInput, setSearchInput] = useState("russia");
+  const [searchInput, setSearchInput] = useState(" ");
 
   useEffect(() => setSearchInput(searchInput), [searchInput]);
 
